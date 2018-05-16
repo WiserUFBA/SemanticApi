@@ -49,8 +49,8 @@ var activeTableTab = "activeTableTab";
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../../com/eudes/semanticApi/api/APIResponse.html" title="class in com.eudes.semanticApi.api"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticApi.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../com/eudes/semanticApi/api/APIResponse.html" title="class in com.eudes.semanticMake.api"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticMake.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../index.html?com/eudes/semanticApi/api/MakeModelController.html" target="_top">Frames</a></li>
@@ -92,7 +92,7 @@ var activeTableTab = "activeTableTab";
 <!-- ========= END OF TOP NAVBAR ========= -->
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle">com.eudes.semanticApi.api</div>
+<div class="subTitle">com.eudes.semanticMake.api</div>
 <h2 title="Class MakeModelController" class="title">Class MakeModelController</h2>
 </div>
 <div class="contentContainer">
@@ -100,7 +100,7 @@ var activeTableTab = "activeTableTab";
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>com.eudes.semanticApi.api.MakeModelController</li>
+<li>com.eudes.semanticMake.api.MakeModelController</li>
 </ul>
 </li>
 </ul>
@@ -192,15 +192,15 @@ extends java.lang.Object</pre>
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#addAsResource-org.apache.jena.rdf.model.Model-com.eudes.semanticApi.api.ResourceApi-">addAsResource</a></span>(org.apache.jena.rdf.model.Model&nbsp;model,
-             <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#addAsResource-org.apache.jena.rdf.model.Model-com.eudes.semanticMake.api.ResourceApi-">addAsResource</a></span>(org.apache.jena.rdf.model.Model&nbsp;model,
+             <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</code>
 <div class="block">Method responsible for creating a new resource according to the data passed according to the predefined ontology
  <br> The vocabularies, properties and values will be passed to create the new instance of the ontology</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>org.apache.jena.rdf.model.Model</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#createModel-com.eudes.semanticApi.api.ResourceApi-">createModel</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#createModel-com.eudes.semanticMake.api.ResourceApi-">createModel</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</code>
 <div class="block">Method responsible for creating a template that will receive the given data:
  <br> Vocabularies with their respective prefixes and properties with their values</div>
 </td>
@@ -227,7 +227,7 @@ extends java.lang.Object</pre>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
-<td class="colFirst"><code>private java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;</code></td>
+<td class="colFirst"><code>private java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getPrefixedPairs-org.apache.jena.rdf.model.Resource-">getPrefixedPairs</a></span>(org.apache.jena.rdf.model.Resource&nbsp;r)</code>&nbsp;</td>
 </tr>
 <tr id="i6" class="altColor">
@@ -239,37 +239,37 @@ extends java.lang.Object</pre>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getPropertyNameSpace-java.lang.String-">getPropertyNameSpace</a></span>(java.lang.String&nbsp;propertyUri)</code>&nbsp;</td>
 </tr>
 <tr id="i8" class="altColor">
-<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&gt;</code></td>
+<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResource-java.lang.String-java.lang.String-">getResource</a></span>(java.lang.String&nbsp;workspace,
            java.lang.String&nbsp;resourceId)</code>
 <div class="block">Method for obtaining a resource given his URI</div>
 </td>
 </tr>
 <tr id="i9" class="rowColor">
-<td class="colFirst"><code>private <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a></code></td>
+<td class="colFirst"><code>private <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceApi-java.lang.String-java.lang.String-">getResourceApi</a></span>(java.lang.String&nbsp;workspace,
               java.lang.String&nbsp;resourceId)</code>&nbsp;</td>
 </tr>
 <tr id="i10" class="altColor">
 <td class="colFirst"><code>private java.lang.String</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceID-com.eudes.semanticApi.api.ResourceApi-">getResourceID</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceID-com.eudes.semanticMake.api.ResourceApi-">getResourceID</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</code>
 <div class="block">Method that generates a unique identifier to be coupled to the URI for a new instance of the ontology</div>
 </td>
 </tr>
 <tr id="i11" class="rowColor">
 <td class="colFirst"><code>private java.lang.String</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceLocalName-com.eudes.semanticApi.api.ResourceApi-">getResourceLocalName</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceLocalName-com.eudes.semanticMake.api.ResourceApi-">getResourceLocalName</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
 </tr>
 <tr id="i12" class="altColor">
 <td class="colFirst"><code>private int</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceLocalNameSize-com.eudes.semanticApi.api.ResourceApi-">getResourceLocalNameSize</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceLocalNameSize-com.eudes.semanticMake.api.ResourceApi-">getResourceLocalNameSize</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
 </tr>
 <tr id="i13" class="rowColor">
 <td class="colFirst"><code>private int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceNameSize-org.apache.jena.rdf.model.Resource-">getResourceNameSize</a></span>(org.apache.jena.rdf.model.Resource&nbsp;resource)</code>&nbsp;</td>
 </tr>
 <tr id="i14" class="altColor">
-<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&gt;&gt;</code></td>
+<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&gt;&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResources-java.lang.String-java.lang.String-java.lang.String-boolean-">getResources</a></span>(java.lang.String&nbsp;workspace,
             java.lang.String&nbsp;propertyUri,
             java.lang.String&nbsp;value,
@@ -278,7 +278,7 @@ extends java.lang.Object</pre>
 </td>
 </tr>
 <tr id="i15" class="rowColor">
-<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&gt;&gt;</code></td>
+<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&gt;&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourcesByType-java.util.List-java.lang.String-">getResourcesByType</a></span>(java.util.List&lt;java.lang.String&gt;&nbsp;workspaces,
                   java.lang.String&nbsp;type)</code>
 <div class="block">Method responsible for obtaining a list of resources given the resource type</div>
@@ -290,18 +290,18 @@ extends java.lang.Object</pre>
 </tr>
 <tr id="i17" class="rowColor">
 <td class="colFirst"><code>private java.lang.String</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceUri-com.eudes.semanticApi.api.ResourceApi-">getResourceUri</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getResourceUri-com.eudes.semanticMake.api.ResourceApi-">getResourceUri</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
 </tr>
 <tr id="i18" class="altColor">
-<td class="colFirst"><code>java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getUsedVocabularies-java.util.List-">getUsedVocabularies</a></span>(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</code>&nbsp;</td>
+<td class="colFirst"><code>java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getUsedVocabularies-java.util.List-">getUsedVocabularies</a></span>(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</code>&nbsp;</td>
 </tr>
 <tr id="i19" class="rowColor">
-<td class="colFirst"><code>private java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticApi.api">Vocabulary</a>&gt;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getVocabularies-java.util.List-">getVocabularies</a></span>(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</code>&nbsp;</td>
+<td class="colFirst"><code>private java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticMake.api">Vocabulary</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getVocabularies-java.util.List-">getVocabularies</a></span>(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</code>&nbsp;</td>
 </tr>
 <tr id="i20" class="altColor">
-<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;java.util.Collection&lt;<a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticApi.api">OptGroup</a>&gt;&gt;</code></td>
+<td class="colFirst"><code>org.springframework.http.ResponseEntity&lt;java.util.Collection&lt;<a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticMake.api">OptGroup</a>&gt;&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#getVocabularyPredicates-java.lang.String-java.lang.String-">getVocabularyPredicates</a></span>(java.lang.String&nbsp;vocabPrefix,
                        java.lang.String&nbsp;search)</code>
 <div class="block">Method responsible for retrieving predicates of vocabulary of interest according to the given term</div>
@@ -315,11 +315,11 @@ extends java.lang.Object</pre>
 </tr>
 <tr id="i22" class="altColor">
 <td class="colFirst"><code>private boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#resourceHasLocalName-com.eudes.semanticApi.api.ResourceApi-">resourceHasLocalName</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#resourceHasLocalName-com.eudes.semanticMake.api.ResourceApi-">resourceHasLocalName</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</code>&nbsp;</td>
 </tr>
 <tr id="i23" class="rowColor">
 <td class="colFirst"><code>org.springframework.http.ResponseEntity</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#saveResource-com.eudes.semanticApi.api.ResourceApi-java.lang.String-">saveResource</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource,
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#saveResource-com.eudes.semanticMake.api.ResourceApi-java.lang.String-">saveResource</a></span>(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource,
             java.lang.String&nbsp;workspace)</code>
 <div class="block">Method responsible for receiving and saving the resource passed in the client defined ontology
  <br> The resource is passed in JSON format</div>
@@ -347,8 +347,8 @@ extends java.lang.Object</pre>
 </tr>
 <tr id="i27" class="rowColor">
 <td class="colFirst"><code>private boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#vocabularyExists-java.util.List-com.eudes.semanticApi.api.PrefixedPair-">vocabularyExists</a></span>(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticApi.api">Vocabulary</a>&gt;&nbsp;vocabularies,
-                <a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&nbsp;prefixedPair)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/eudes/semanticApi/api/MakeModelController.html#vocabularyExists-java.util.List-com.eudes.semanticMake.api.PrefixedPair-">vocabularyExists</a></span>(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticMake.api">Vocabulary</a>&gt;&nbsp;vocabularies,
+                <a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&nbsp;prefixedPair)</code>&nbsp;</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -449,7 +449,7 @@ public&nbsp;org.springframework.http.ResponseEntity&nbsp;setTripleStoreAddres(@R
 </dl>
 </li>
 </ul>
-<a name="saveResource-com.eudes.semanticApi.api.ResourceApi-java.lang.String-">
+<a name="saveResource-com.eudes.semanticMake.api.ResourceApi-java.lang.String-">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -457,7 +457,7 @@ public&nbsp;org.springframework.http.ResponseEntity&nbsp;setTripleStoreAddres(@R
 <h4>saveResource</h4>
 <pre>@PostMapping(value="/saveResource/{workspace}")
 public&nbsp;org.springframework.http.ResponseEntity&nbsp;saveResource(@RequestBody
-                                                                                                             <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource,
+                                                                                                             <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource,
                                                                                                              @PathVariable
                                                                                                              java.lang.String&nbsp;workspace)</pre>
 <div class="block">Method responsible for receiving and saving the resource passed in the client defined ontology
@@ -567,7 +567,7 @@ public&nbsp;org.springframework.http.ResponseEntity&nbsp;updateProperty(@PathVar
 <li class="blockList">
 <h4>getResources</h4>
 <pre>@GetMapping(value="/getResources/{workspace}")
-public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&gt;&gt;&nbsp;getResources(@PathVariable
+public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&gt;&gt;&nbsp;getResources(@PathVariable
                                                                                                                                          java.lang.String&nbsp;workspace,
                                                                                                                                          @RequestParam
                                                                                                                                          java.lang.String&nbsp;propertyUri,
@@ -595,7 +595,7 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 <li class="blockList">
 <h4>getVocabularyPredicates</h4>
 <pre>@GetMapping(value="/getVocabularyData")
-public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.Collection&lt;<a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticApi.api">OptGroup</a>&gt;&gt;&nbsp;getVocabularyPredicates(@RequestParam(value="vocabPrefix",required=false)
+public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.Collection&lt;<a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticMake.api">OptGroup</a>&gt;&gt;&nbsp;getVocabularyPredicates(@RequestParam(value="vocabPrefix",required=false)
                                                                                                                                                 java.lang.String&nbsp;vocabPrefix,
                                                                                                                                                 @RequestParam(value="search",required=false)
                                                                                                                                                 java.lang.String&nbsp;search)</pre>
@@ -617,7 +617,7 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.Collection&lt;<
 <li class="blockList">
 <h4>getResource</h4>
 <pre>@GetMapping(value="/getResource/{workspace}")
-public&nbsp;org.springframework.http.ResponseEntity&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&gt;&nbsp;getResource(@PathVariable
+public&nbsp;org.springframework.http.ResponseEntity&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&gt;&nbsp;getResource(@PathVariable
                                                                                                                        java.lang.String&nbsp;workspace,
                                                                                                                        @RequestParam
                                                                                                                        java.lang.String&nbsp;resourceId)</pre>
@@ -638,7 +638,7 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;<a href="../../../../com/
 <li class="blockList">
 <h4>getResourcesByType</h4>
 <pre>@GetMapping(value="/getResourcesByType")
-public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&gt;&gt;&nbsp;getResourcesByType(@RequestParam
+public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&gt;&gt;&nbsp;getResourcesByType(@RequestParam
                                                                                                                                          java.util.List&lt;java.lang.String&gt;&nbsp;workspaces,
                                                                                                                                          @RequestParam
                                                                                                                                          java.lang.String&nbsp;type)</pre>
@@ -658,7 +658,7 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 <ul class="blockList">
 <li class="blockList">
 <h4>getResourceApi</h4>
-<pre>private&nbsp;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;getResourceApi(java.lang.String&nbsp;workspace,
+<pre>private&nbsp;<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;getResourceApi(java.lang.String&nbsp;workspace,
                                    java.lang.String&nbsp;resourceId)</pre>
 </li>
 </ul>
@@ -713,7 +713,7 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 <ul class="blockList">
 <li class="blockList">
 <h4>getVocabularies</h4>
-<pre>private&nbsp;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticApi.api">Vocabulary</a>&gt;&nbsp;getVocabularies(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</pre>
+<pre>private&nbsp;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticMake.api">Vocabulary</a>&gt;&nbsp;getVocabularies(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</pre>
 </li>
 </ul>
 <a name="getPrefixedPairs-org.apache.jena.rdf.model.Resource-">
@@ -722,17 +722,17 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 <ul class="blockList">
 <li class="blockList">
 <h4>getPrefixedPairs</h4>
-<pre>private&nbsp;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;&nbsp;getPrefixedPairs(org.apache.jena.rdf.model.Resource&nbsp;r)</pre>
+<pre>private&nbsp;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;&nbsp;getPrefixedPairs(org.apache.jena.rdf.model.Resource&nbsp;r)</pre>
 </li>
 </ul>
-<a name="vocabularyExists-java.util.List-com.eudes.semanticApi.api.PrefixedPair-">
+<a name="vocabularyExists-java.util.List-com.eudes.semanticMake.api.PrefixedPair-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>vocabularyExists</h4>
-<pre>private&nbsp;boolean&nbsp;vocabularyExists(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticApi.api">Vocabulary</a>&gt;&nbsp;vocabularies,
-                                 <a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&nbsp;prefixedPair)</pre>
+<pre>private&nbsp;boolean&nbsp;vocabularyExists(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/Vocabulary.html" title="class in com.eudes.semanticMake.api">Vocabulary</a>&gt;&nbsp;vocabularies,
+                                 <a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&nbsp;prefixedPair)</pre>
 </li>
 </ul>
 <a name="getUsedVocabularies-java.util.List-">
@@ -741,17 +741,17 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 <ul class="blockList">
 <li class="blockList">
 <h4>getUsedVocabularies</h4>
-<pre>public&nbsp;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;&nbsp;getUsedVocabularies(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticApi.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</pre>
+<pre>public&nbsp;java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;&nbsp;getUsedVocabularies(java.util.List&lt;<a href="../../../../com/eudes/semanticApi/api/PrefixedPair.html" title="class in com.eudes.semanticMake.api">PrefixedPair</a>&gt;&nbsp;prefixedPairs)</pre>
 </li>
 </ul>
-<a name="addAsResource-org.apache.jena.rdf.model.Model-com.eudes.semanticApi.api.ResourceApi-">
+<a name="addAsResource-org.apache.jena.rdf.model.Model-com.eudes.semanticMake.api.ResourceApi-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>addAsResource</h4>
 <pre>public&nbsp;void&nbsp;addAsResource(org.apache.jena.rdf.model.Model&nbsp;model,
-                          <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</pre>
+                          <a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</pre>
 <div class="block">Method responsible for creating a new resource according to the data passed according to the predefined ontology
  <br> The vocabularies, properties and values will be passed to create the new instance of the ontology</div>
 <dl>
@@ -777,13 +777,13 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 </dl>
 </li>
 </ul>
-<a name="getResourceID-com.eudes.semanticApi.api.ResourceApi-">
+<a name="getResourceID-com.eudes.semanticMake.api.ResourceApi-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getResourceID</h4>
-<pre>private&nbsp;java.lang.String&nbsp;getResourceID(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</pre>
+<pre>private&nbsp;java.lang.String&nbsp;getResourceID(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</pre>
 <div class="block">Method that generates a unique identifier to be coupled to the URI for a new instance of the ontology</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -793,49 +793,49 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 </dl>
 </li>
 </ul>
-<a name="resourceHasLocalName-com.eudes.semanticApi.api.ResourceApi-">
+<a name="resourceHasLocalName-com.eudes.semanticMake.api.ResourceApi-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>resourceHasLocalName</h4>
-<pre>private&nbsp;boolean&nbsp;resourceHasLocalName(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</pre>
+<pre>private&nbsp;boolean&nbsp;resourceHasLocalName(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</pre>
 </li>
 </ul>
-<a name="getResourceLocalNameSize-com.eudes.semanticApi.api.ResourceApi-">
+<a name="getResourceLocalNameSize-com.eudes.semanticMake.api.ResourceApi-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getResourceLocalNameSize</h4>
-<pre>private&nbsp;int&nbsp;getResourceLocalNameSize(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</pre>
+<pre>private&nbsp;int&nbsp;getResourceLocalNameSize(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</pre>
 </li>
 </ul>
-<a name="getResourceLocalName-com.eudes.semanticApi.api.ResourceApi-">
+<a name="getResourceLocalName-com.eudes.semanticMake.api.ResourceApi-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getResourceLocalName</h4>
-<pre>private&nbsp;java.lang.String&nbsp;getResourceLocalName(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</pre>
+<pre>private&nbsp;java.lang.String&nbsp;getResourceLocalName(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</pre>
 </li>
 </ul>
-<a name="getResourceUri-com.eudes.semanticApi.api.ResourceApi-">
+<a name="getResourceUri-com.eudes.semanticMake.api.ResourceApi-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getResourceUri</h4>
-<pre>private&nbsp;java.lang.String&nbsp;getResourceUri(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</pre>
+<pre>private&nbsp;java.lang.String&nbsp;getResourceUri(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</pre>
 </li>
 </ul>
-<a name="createModel-com.eudes.semanticApi.api.ResourceApi-">
+<a name="createModel-com.eudes.semanticMake.api.ResourceApi-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>createModel</h4>
-<pre>public&nbsp;org.apache.jena.rdf.model.Model&nbsp;createModel(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticApi.api">ResourceApi</a>&nbsp;resource)</pre>
+<pre>public&nbsp;org.apache.jena.rdf.model.Model&nbsp;createModel(<a href="../../../../com/eudes/semanticApi/api/ResourceApi.html" title="class in com.eudes.semanticMake.api">ResourceApi</a>&nbsp;resource)</pre>
 <div class="block">Method responsible for creating a template that will receive the given data:
  <br> Vocabularies with their respective prefixes and properties with their values</div>
 <dl>
@@ -874,8 +874,8 @@ public&nbsp;org.springframework.http.ResponseEntity&lt;java.util.List&lt;<a href
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../../com/eudes/semanticApi/api/APIResponse.html" title="class in com.eudes.semanticApi.api"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticApi.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../com/eudes/semanticApi/api/APIResponse.html" title="class in com.eudes.semanticMake.api"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../../com/eudes/semanticApi/api/OptGroup.html" title="class in com.eudes.semanticMake.api"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../index.html?com/eudes/semanticApi/api/MakeModelController.html" target="_top">Frames</a></li>

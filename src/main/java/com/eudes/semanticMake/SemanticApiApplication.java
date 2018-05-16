@@ -1,4 +1,4 @@
-package com.eudes.semanticApi;
+package com.eudes.semanticMake;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

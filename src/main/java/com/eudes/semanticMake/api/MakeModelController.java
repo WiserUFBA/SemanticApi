@@ -1,12 +1,13 @@
-package com.eudes.semanticApi.api;
+package com.eudes.semanticMake.api;
 
-import com.eudes.semanticApi.util.KnownVocabs;
-import com.eudes.semanticApi.util.OptGroupBuilder;
-import com.eudes.semanticApi.util.Verified;
+import com.eudes.semanticMake.util.KnownVocabs;
+import com.eudes.semanticMake.util.OptGroupBuilder;
+import com.eudes.semanticMake.util.Verified;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
+import lombok.Data;
 import org.apache.jena.query.DatasetAccessor;
 import org.apache.jena.query.DatasetAccessorFactory;
 import org.apache.jena.rdf.model.*;
@@ -22,6 +23,7 @@ import static org.springframework.util.StringUtils.hasText;
  * @author Eudes Souza
  * @since 10/2017
  */
+@Data
 @RestController
 @RequestMapping(value = "/resources")
 @Api(value="onlinestore", description="REST controller responsible for handling requests and responses to the client")
@@ -45,7 +47,7 @@ public class MakeModelController {
     /**
      * Start MakeModelController with the URL of the Fuseki server where the ontologies will be stored
      */
-    MakeModelController() {
+    public MakeModelController() {
         datasetAccessor = DatasetAccessorFactory.createHTTP(fusekiURI);
     }
 
@@ -69,7 +71,7 @@ public class MakeModelController {
      * <br> The resource is passed in JSON format
      * @param resource Resource passed by client
      * @param workspace Returns a ResponseEntity containing a APIResponse
-     * @return
+     * @return Returns a ResponseEntity containing the saved APIResponse
      */
     @PostMapping("/saveResource/{workspace}")
     @ApiOperation(value = "Method responsible to save a new resource", response = ResponseEntity.class)
@@ -299,7 +301,7 @@ public class MakeModelController {
      * @param workspace String to hold the graph name that will be passed
      * @param propertyUri String to hold the property URI
      * @param value String to hold the property value
-     * @param isExactly Boolean usedo to determine if the passed value must be considered exactly like was passed
+     * @param isExactly Boolean used to determine if the passed value must be considered exactly like was passed
      *                  or if must only to contain the value passed on the property
      * @return Returns a ResponseEntity containing a list of resources
      */
@@ -424,7 +426,7 @@ public class MakeModelController {
         return ResponseEntity.ok(resourcesApi);
     }
 
-    private ResourceApi getResourceApi(String workspace, String resourceId) {
+    public ResourceApi getResourceApi(String workspace, String resourceId) {
 
         ResourceApi resource = new ResourceApi();
 
@@ -493,7 +495,7 @@ public class MakeModelController {
         }
     }
 
-    private String getResourceTypeName(Resource resource) {
+    public String getResourceTypeName(Resource resource) {
         StmtIterator iter = resource.listProperties();
         String resourceTypeName = null;
         while (iter.hasNext()) {
@@ -508,7 +510,7 @@ public class MakeModelController {
         return resourceTypeName;
     }
 
-    private String getPropertyName(String propertyUri) {
+    public String getPropertyName(String propertyUri) {
          int propSize = 0;
          for(int i = propertyUri.length() - 1; propertyUri.charAt(i) != '/' && propertyUri.charAt(i) != '#'; i--)
              propSize++;
@@ -516,7 +518,7 @@ public class MakeModelController {
          return propertyNameUri;
     }
 
-    private String getPropertyNameSpace(String propertyUri) {
+    public String getPropertyNameSpace(String propertyUri) {
         int propSize = 0;
         for(int i = propertyUri.length() - 1; propertyUri.charAt(i) != '/' && propertyUri.charAt(i) != '#'; i--)
             propSize++;
@@ -708,7 +710,7 @@ public class MakeModelController {
      * @param uri String that stores the URI
      * @return Returns a String from a normalized URI
      */
-    private String normalizeURI(String uri) {
+    public String normalizeURI(String uri) {
         return (uri.endsWith("/") || uri.endsWith("#")) ? uri : uri + "/";
     }
 

@@ -1,4 +1,4 @@
-package com.eudes.semanticApi.api;
+package com.eudes.semanticMake.api;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

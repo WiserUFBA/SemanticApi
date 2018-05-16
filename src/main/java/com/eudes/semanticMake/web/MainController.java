@@ -1,4 +1,4 @@
-package com.eudes.semanticApi.web;
+package com.eudes.semanticMake.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

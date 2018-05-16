@@ -1,4 +1,4 @@
-package com.eudes.semanticApi.api;
+package com.eudes.semanticMake.api;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,7 +26,7 @@ public class SwaggerConfig {
          */
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.eudes.semanticApi.api"))
+                .apis(RequestHandlerSelectors.basePackage("com.eudes.semanticMake.api"))
                 .paths(regex("/resources.*"))
                 .build()
                 .apiInfo(metaData());

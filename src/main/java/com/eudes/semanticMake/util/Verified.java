@@ -1,6 +1,6 @@
-package com.eudes.semanticApi.util;
+package com.eudes.semanticMake.util;
 
-import com.eudes.semanticApi.api.Pair;
+import com.eudes.semanticMake.api.Pair;
 import lombok.Data;
 
 /**

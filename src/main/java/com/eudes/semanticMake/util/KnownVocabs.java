@@ -1,4 +1,4 @@
-package com.eudes.semanticApi.util;
+package com.eudes.semanticMake.util;
 
 import lombok.Getter;
 

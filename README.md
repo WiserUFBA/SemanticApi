@@ -1,9 +1,9 @@
 
-# Semantic API
+# SemanticMake
 
-Project developed to assist in the development of web applications that aim to store semantic content. The API
-was developed in JAVA using the JENA framework, which facilitates the manipulation of semantic content. It is abstracted the
-storage location and returned the name of the address so that new insertions in the workspace are made.
+Project developed to assist the development of web applications that aim to store semantic content. This framework was
+developed in Java a with the help of the JENA framework to get more facilitates in the the manipulation of 
+semantic content. 
 
 ## Content
 - [Requisites](#requisites)
@@ -11,15 +11,17 @@ storage location and returned the name of the address so that new insertions in 
 - [ClientApi](#client-api) 
     - [Property Format](#resource-format)
     - [Sample of use](#sample-of-use)
+    - [Swagger UI (Application tests)](#swagger-ui)
 - [Documentation](#documentation)
     - [Javadoc](#javadoc)
-    - [Swagger UI](#swagger-ui)
 
 ### Requisites
-
+  
 - [Java 8+](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
-- [Maven 3+](https://maven.apache.org/install.html)
 - [Fuseki 3+](https://jena.apache.org/download/#jena-fuseki): Must be running and have a dataset called SemanticContent.
+- [Intellij Lombok Plugin](https://github.com/mplushnikov/lombok-intellij-plugin): Version: 0.14.16 
+- [Spring Framework](https://projects.spring.io/spring-boot/): Boot starter version: 1.5.7
+- [Maven 3+](https://maven.apache.org/install.html): This dependency manager is responsible for all dependencies of this project 
 
 ### Use
 
